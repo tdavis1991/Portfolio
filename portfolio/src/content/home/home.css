@@ -1,0 +1,26 @@
+.home__container {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.home__header {
+  color: gray;
+  font-size: 4rem;
+}
+
+.home__name {
+  color: red;
+}
+
+.home__title {
+  color: gray;
+  font-size: 2rem;
+}
+
+.home__image {
+  border-radius: 100%;
+}
