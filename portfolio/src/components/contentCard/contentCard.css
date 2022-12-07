@@ -1,0 +1,13 @@
+.contentCard__container {
+  color: white;
+  margin: 1rem 1rem;
+}
+
+.contentCard__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentCard__buttons Button {
+  padding: 0.6rem 2rem;
+}

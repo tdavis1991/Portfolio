@@ -1,0 +1,15 @@
+.projects__container {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects__code {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}

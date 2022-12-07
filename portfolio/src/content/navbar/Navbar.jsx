@@ -28,7 +28,7 @@ import './navbar.css';
 function ColorSchemesExample() {
   return (
     <>
-      <Navbar className='navbar__container' fixed='top' bg="dark" variant="light">
+      <Navbar className='navbar__container' fixed='top' bg="secondary" variant="light">
         <Container className='navbar__content'>
           <Navbar.Brand className='navbar__brand' href="#home">Portfolio</Navbar.Brand>
           <Nav fill variant='tabs'>
