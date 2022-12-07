@@ -69,3 +69,7 @@ body {
   min-height: 100vh;
   background-image: url(./images/17820207_SL-092619-23740-28.jpg);
 }
+
+:root {
+  scroll-behavior: smooth;
+}

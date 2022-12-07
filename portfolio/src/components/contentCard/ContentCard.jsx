@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 import './contentCard.css';
 
-function ContentCard({ image, title, desc }) {
+function ContentCard({ image, title, desc, site, code }) {
   return (
     <Card className='contentCard__container' bg='secondary' style={{ width: '20rem' }}>
       <Card.Img variant="top" src={image} />
@@ -13,8 +13,8 @@ function ContentCard({ image, title, desc }) {
           {desc}
         </Card.Text>
         <div className='contentCard__buttons'>
-          <Button variant="danger">Site</Button>
-          <Button variant="danger">Code</Button>
+          <a href={site}><Button variant="danger">Site</Button></a>
+          <a href={code}><Button variant="danger">Code</Button></a>
         </div>
       </Card.Body>
     </Card>

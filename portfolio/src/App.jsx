@@ -13,8 +13,8 @@ function App() {
         <ColorSchemesExample />
         <Home />
         <Projects />
-        <Contact />
         <About />
+        <Contact />
       </div>
     </div>
   )

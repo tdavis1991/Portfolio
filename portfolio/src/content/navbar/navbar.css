@@ -35,6 +35,10 @@
   color: white;
 }
 
+.navbar__brand:hover {
+  color: red;
+}
+
 .navbar__link {
   color: white;
   margin: 0 1rem;
