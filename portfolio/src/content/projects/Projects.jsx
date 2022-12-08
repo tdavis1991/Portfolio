@@ -7,8 +7,11 @@ import {projectData} from '../../assets/constants';
 const Projects = () => {
   return (
     <div className='projects__container' id='#projects'>
-      <h1>Checkout My Work!</h1>
-      <diV className='projects__code'>
+      <div className='projects__title'>
+        <p>WORK</p>
+        <h1>My Latest Projects</h1>
+      </div>
+      <div className='projects__code'>
         {projectData.map((project, i) => (
           <ContentCard 
             image={project.image}
@@ -18,7 +21,7 @@ const Projects = () => {
             code={project.code}
           />
         ))}
-      </diV>
+      </div>
     </div>
   )
 }

@@ -4,11 +4,14 @@
   height: 100vh;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
+  margin: 4rem;
 }
 
 .home__header {
-  color: gray;
+  color: white;
+}
+
+.home__header h1 {
   font-size: 4rem;
 }
 
@@ -17,10 +20,26 @@
 }
 
 .home__title {
-  color: gray;
-  font-size: 2rem;
+  color: greenyellow;
 }
 
 .home__image {
   border-radius: 100%;
+}
+
+.home__sub {
+  display: flex;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.home__sub button {
+  margin-right: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: greenyellow;
+}
+
+.home__sub p {
+  font-size: 1.4rem;
 }

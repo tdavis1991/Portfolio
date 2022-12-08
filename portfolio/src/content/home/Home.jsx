@@ -1,16 +1,21 @@
 import React from 'react';
 
-import portfolioImage from '../../images/portfolio_image_1.jpg';
 import './home.css';
 
 const Home = () => {
   return (
     <div className='home__container' id='#home'>
       <div className='home__content'>
-        <div className='home__header'>Hi, my name is <span className='home__name'>Tevin Davis</span>.</div>
-        <p className='home__title'>Im a Full Stack Developer</p>
+        <div className='home__header'>
+          <h1>Hi, I'm a <span className='home__title'>Full Stack Developer</span></h1>
+          <h1>From Rock Hill, SC</h1>
+          <h3>A father, husband and developer</h3>
+          <div className='home__sub'>
+            <a href='#projects'><button>Explore My Work</button></a>
+            <p>Call: (803)-524-1533</p>
+          </div>
+        </div>
       </div>
-      <img className='home__image' src={portfolioImage} alt='portfolio' />
     </div>
   )
 }

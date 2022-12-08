@@ -1,7 +1,5 @@
 import './App.css';
-import { Home, Projects, Contact, About, Navbar } from './content';
-
-import ColorSchemesExample from './content/navbar/Navbar';
+import { Home, Projects, Contact, About, NavbarContainer } from './content';
 
 
 function App() {
@@ -9,8 +7,9 @@ function App() {
   return (
     <div className="App">
       <div className='App__navbar'>
-        {/* <Navbar /> */}
-        <ColorSchemesExample />
+        <NavbarContainer />
+      </div>
+      <div className='App__content'>
         <Home />
         <Projects />
         <About />
