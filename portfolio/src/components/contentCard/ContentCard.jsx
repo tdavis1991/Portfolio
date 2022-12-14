@@ -13,8 +13,8 @@ function ContentCard({ image, title, desc, site, code }) {
           {desc}
         </Card.Text>
         <div className='contentCard__buttons'>
-          <a href={site}><Button variant="danger">Site</Button></a>
-          <a href={code}><Button variant="danger">Code</Button></a>
+          <a href={site}><Button>Site</Button></a>
+          <a href={code}><Button>Code</Button></a>
         </div>
       </Card.Body>
     </Card>

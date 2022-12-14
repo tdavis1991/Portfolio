@@ -3,6 +3,10 @@
   margin: 1rem 1rem 1rem 0;
 }
 
+.contentCard__container:hover {
+  border: 2px solid greenyellow;
+}
+
 .contentCard__buttons {
   display: flex;
   justify-content: space-between;
@@ -10,4 +14,5 @@
 
 .contentCard__buttons Button {
   padding: 0.6rem 2rem;
+  background-color: greenyellow;
 }

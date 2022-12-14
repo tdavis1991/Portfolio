@@ -6,7 +6,7 @@ import {projectData} from '../../assets/constants';
 
 const Projects = () => {
   return (
-    <div className='projects__container' id='#projects'>
+    <div className='projects__container' id='projects'>
       <div className='projects__title'>
         <p>WORK</p>
         <h1>My Latest Projects</h1>

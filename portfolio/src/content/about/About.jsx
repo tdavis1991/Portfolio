@@ -1,14 +1,21 @@
 import React from 'react';
 
 import './about.css';
+import AboutCard from '../../components/aboutCard/AboutCard';
 
 const About = () => {
   return (
-    <div className='about__container'>
-      <div className='about__body'>
-        <div className='about__content'>
-          <h1>A little about me</h1>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p> 
+    <div className='about__container' id='about'>
+      <p>ABOUT</p>
+      <h1>My Education & Experience</h1>
+      <div className='about__cards'>
+        <div className='about__card'>
+          <h2>Education</h2>
+          <AboutCard title='Full Stack Web Developer' placeTime='Bloomtech (2019-2021)' text='A rigorous course that develops the skill to build dynamic web applications and gain proficiency in the theory and application of web development and computer science.' />
+        </div>
+        <div className='about__card'>
+          <h2>Experience</h2>
+          <AboutCard title='Team Lead' placeTime='Bloomtech (2019-2020)' text='Lead a team of 8-10 students for few months while attending Lambda. This roles responsibilities were assessing code, hosting meetings, and helping students with blockers they may have. Setup Trello boards and GitHub organization for students final project for the unit.' />
         </div>
       </div>
     </div>

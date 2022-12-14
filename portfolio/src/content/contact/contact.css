@@ -1,0 +1,40 @@
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100vh;
+  text-align: center;
+}
+
+.contact__container p:first-child{
+  font-weight: bold;
+  color: greenyellow;
+  font-size: 1.4rem;
+}
+
+.contact__container h2 {
+  color: white;
+}
+
+.contact__form {
+  width: 60%;
+  margin: 1rem 0;
+}
+
+.contact__nameEmail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__name Form.Group {
+  width: 40%;
+}
+
+.contact__button {
+  width: 100%;
+  margin: 1rem 0;
+  background-color: greenyellow;
+  border: none;
+}
