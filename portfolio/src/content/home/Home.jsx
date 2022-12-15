@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlinePhone } from "react-icons/ai";
 
 import './home.css';
 
@@ -12,7 +13,7 @@ const Home = () => {
           <h3>A father, husband and developer</h3>
           <div className='home__sub'>
             <a href='#projects'><button>Explore My Work</button></a>
-            <p>Call: (803)-524-1533</p>
+            <p><span><AiOutlinePhone /></span> (803)-524-1533</p>
           </div>
         </div>
       </div>
