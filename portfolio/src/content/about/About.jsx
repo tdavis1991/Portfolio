@@ -18,6 +18,9 @@ const About = () => {
           <AboutCard title='Team Lead' placeTime='Bloomtech (2019-2020)' text='Lead a team of 8-10 students for few months while attending Lambda. This roles responsibilities were assessing code, hosting meetings, and helping students with blockers they may have. Setup Trello boards and GitHub organization for students final project for the unit.' />
         </div>
       </div>
+      <div className='about__life'>
+        
+      </div>
     </div>
   )
 }
