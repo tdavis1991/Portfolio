@@ -24,6 +24,8 @@ const Contact = () => {
       document.getElementById('contact__form').reset();
   };
 
+  console.log('KEY', import.meta.env.VITE_PUBLIC_KEY)
+
 
   return (
     <div className='contact__container' id='contact'>

@@ -15,4 +15,5 @@
 .contentCard__buttons Button {
   padding: 0.6rem 2rem;
   background-color: greenyellow;
+  color: black;
 }
