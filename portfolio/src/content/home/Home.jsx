@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { AiOutlinePhone } from "react-icons/ai";
 
 import './home.css';
 
