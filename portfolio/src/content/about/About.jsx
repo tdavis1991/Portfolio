@@ -19,7 +19,10 @@ const About = () => {
         </div>
       </div>
       <div className='about__life'>
-        
+        <div className='about__content'>
+          <h2>Story Time</h2>
+          <p>Ever since I was a teenager, I knew I wanted to pursue a career in technology. After I graduated, I enrolled in a school for information technology but had to leave due to personal reasons. I took a break for a few years and decided to push myself to achieve a career in software engineering, and I have not looked back. I am now a certified full-stack developer from Bloomtech. Much has happened in the past few years. In 2019, I married the love of my life; in 2020, we became home owners; and in 2022, we became parents to a beautiful baby girl. Since it's not just me anymore, my passion to become a developer is stronger than ever.</p>
+        </div>
       </div>
     </div>
   )

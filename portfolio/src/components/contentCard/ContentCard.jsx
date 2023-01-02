@@ -1,9 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 import './contentCard.css';
 
-function ContentCard({ image, title, desc, site, code }) {
+function ContentCard({ image, title, desc, site, code, time }) {
+
   return (
     <Card className='contentCard__container' bg='secondary' style={{ width: '20rem' }}>
       <Card.Img variant="top" src={image} />

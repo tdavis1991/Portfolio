@@ -1,6 +1,7 @@
 .contentCard__container {
   color: white;
   margin: 1rem 1rem 1rem 0;
+  min-height: 350px;
 }
 
 .contentCard__container:hover {
